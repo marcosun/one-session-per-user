@@ -50,7 +50,7 @@ const login = (req, res, next) => {
 router.post('/login', passport.authenticate('local'), oneSessionPerUser(), login);
 ```
 
-```
+```javascript
 // user.js
 import mongoose from 'mongoose';
 import passportLocalMongoose from 'passport-local-mongoose';
