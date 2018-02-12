@@ -8,9 +8,9 @@ module.exports = {
   ],
 
   output: {
-    filename: 'smooth-fetch.js',
+    filename: 'one-session-per-user.js',
     path: paths.appDist,
-    library: 'fetch',
+    library: 'oneSessionPerUser',
     libraryTarget: 'umd',
   },
 

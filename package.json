@@ -1,7 +1,7 @@
 {
-  "name": "js-component-seed",
+  "name": "one-session-per-user",
   "version": "0.0.1",
-  "description": "A seed for writing javascript component",
+  "description": "one session per user on top of passport local strategy",
   "main": "index.js",
   "module": "es/index.js",
   "scripts": {
@@ -11,16 +11,16 @@
     "test:watch": "npm test -- --watch",
     "doc": "jsdoc src -r"
   },
-  "repository": "git@github.com:marcosun/js-component-seed.git",
+  "repository": "git@github.com:marcosun/oneSessionPerUser.git",
   "author": "marcosun <marcoinbristol@gmail.com>",
   "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.1",
     "babel-jest": "^22.1.0",
     "babel-loader": "^7.1.2",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-0": "^6.24.1",
     "clean-webpack-plugin": "^0.1.18",
@@ -35,7 +35,6 @@
   },
   "files": [
     "index.js",
-    "umd",
     "es"
   ]
 }
