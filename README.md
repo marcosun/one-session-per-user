@@ -1,5 +1,5 @@
 # one-session-per-user
-One session per user is a Connect middleware, which ensures that one user must have one active session at most. Multiple sessions will be deactivated by deleting those sessions mongoose created by expressjs/sessions. It depends on express-session, passport-local, mongoose, and passport-local-mongoose. Other passport strategies are not currenty supported, however OAuth2 has been planned to support.
+One session per user is a Connect middleware, which ensures that one user must have one active session at most. Multiple sessions will be deactivated by deleting those sessions mongoose created by expressjs/sessions. It depends on express-session, mongoose, passport, passport-local, and passport-local-mongoose. Other passport strategies are not currenty supported, however OAuth2 has been planned to support.
 
 ## Installation
 

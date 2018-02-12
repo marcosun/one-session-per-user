@@ -33,6 +33,13 @@
     "webpack-bundle-analyzer": "^2.10.0",
     "webpack-merge": "^4.1.1"
   },
+  "peerDependencies": {
+    "express-session": "1.x",
+    "mongoose": "5.x",
+    "passport": "0.4.x",
+    "passport-local": "1.x",
+    "passport-local-mongoose": "4.x"
+  },
   "files": [
     "index.js",
     "es"
