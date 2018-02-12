@@ -11,7 +11,7 @@
     "test:watch": "npm test -- --watch",
     "doc": "jsdoc src -r"
   },
-  "repository": "git@github.com:marcosun/oneSessionPerUser.git",
+  "repository": "git@github.com:marcosun/one-session-per-user.git",
   "author": "marcosun <marcoinbristol@gmail.com>",
   "license": "MIT",
   "dependencies": {},
